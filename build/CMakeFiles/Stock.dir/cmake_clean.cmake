@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Stock.dir/src/Market.cpp.o"
-  "CMakeFiles/Stock.dir/src/Market.cpp.o.d"
-  "CMakeFiles/Stock.dir/src/Stock.cpp.o"
-  "CMakeFiles/Stock.dir/src/Stock.cpp.o.d"
-  "CMakeFiles/Stock.dir/src/main.cpp.o"
-  "CMakeFiles/Stock.dir/src/main.cpp.o.d"
+  "CMakeFiles/Stock.dir/Market.cpp.o"
+  "CMakeFiles/Stock.dir/Market.cpp.o.d"
+  "CMakeFiles/Stock.dir/Stock.cpp.o"
+  "CMakeFiles/Stock.dir/Stock.cpp.o.d"
+  "CMakeFiles/Stock.dir/main.cpp.o"
+  "CMakeFiles/Stock.dir/main.cpp.o.d"
   "Stock"
   "Stock.pdb"
 )

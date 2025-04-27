@@ -8,14 +8,14 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(include)
 
 set(SOURCES_FILES
-    src/main.cpp
-    src/Stock.cpp
-    src/Market.cpp
+    main.cpp
+    Stock.cpp
+    Market.cpp
 )
 
 set(HEADER_FILES
-    include/Market.h
-    include/Stock.h
+    Market.h
+    Stock.h
 )
 
 add_executable(${PROJECT_NAME}

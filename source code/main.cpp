@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[]) {
     // Default file paths
-    std::string input_file_path = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Stock/test_operations.txt";
+    std::string input_file_path = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/test_operations.txt";
     std::string output_file_path = "output.txt";
 
     // Check command-line arguments

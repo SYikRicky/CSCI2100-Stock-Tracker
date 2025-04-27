@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp" "CMakeFiles/Stock.dir/src/Market.cpp.o" "gcc" "CMakeFiles/Stock.dir/src/Market.cpp.o.d"
-  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp" "CMakeFiles/Stock.dir/src/Stock.cpp.o" "gcc" "CMakeFiles/Stock.dir/src/Stock.cpp.o.d"
-  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp" "CMakeFiles/Stock.dir/src/main.cpp.o" "gcc" "CMakeFiles/Stock.dir/src/main.cpp.o.d"
+  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Market.cpp" "CMakeFiles/Stock.dir/Market.cpp.o" "gcc" "CMakeFiles/Stock.dir/Market.cpp.o.d"
+  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Stock.cpp" "CMakeFiles/Stock.dir/Stock.cpp.o" "gcc" "CMakeFiles/Stock.dir/Stock.cpp.o.d"
+  "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/main.cpp" "CMakeFiles/Stock.dir/main.cpp.o" "gcc" "CMakeFiles/Stock.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

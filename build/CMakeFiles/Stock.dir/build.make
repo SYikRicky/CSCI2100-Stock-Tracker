@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project"
+CMAKE_SOURCE_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build"
+CMAKE_BINARY_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Stock.dir/depend.make
@@ -72,63 +72,63 @@ include CMakeFiles/Stock.dir/flags.make
 CMakeFiles/Stock.dir/codegen:
 .PHONY : CMakeFiles/Stock.dir/codegen
 
-CMakeFiles/Stock.dir/src/main.cpp.o: CMakeFiles/Stock.dir/flags.make
-CMakeFiles/Stock.dir/src/main.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/Project/src/main.cpp
-CMakeFiles/Stock.dir/src/main.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stock.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/src/main.cpp.o -MF CMakeFiles/Stock.dir/src/main.cpp.o.d -o CMakeFiles/Stock.dir/src/main.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp"
+CMakeFiles/Stock.dir/main.cpp.o: CMakeFiles/Stock.dir/flags.make
+CMakeFiles/Stock.dir/main.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/CSCI2100\ Project\ Stock\ Data\ Tracker/source\ code/main.cpp
+CMakeFiles/Stock.dir/main.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Stock.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/main.cpp.o -MF CMakeFiles/Stock.dir/main.cpp.o.d -o CMakeFiles/Stock.dir/main.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/main.cpp"
 
-CMakeFiles/Stock.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp" > CMakeFiles/Stock.dir/src/main.cpp.i
+CMakeFiles/Stock.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/main.cpp" > CMakeFiles/Stock.dir/main.cpp.i
 
-CMakeFiles/Stock.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp" -o CMakeFiles/Stock.dir/src/main.cpp.s
+CMakeFiles/Stock.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/main.cpp" -o CMakeFiles/Stock.dir/main.cpp.s
 
-CMakeFiles/Stock.dir/src/Stock.cpp.o: CMakeFiles/Stock.dir/flags.make
-CMakeFiles/Stock.dir/src/Stock.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/Project/src/Stock.cpp
-CMakeFiles/Stock.dir/src/Stock.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stock.dir/src/Stock.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/src/Stock.cpp.o -MF CMakeFiles/Stock.dir/src/Stock.cpp.o.d -o CMakeFiles/Stock.dir/src/Stock.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp"
+CMakeFiles/Stock.dir/Stock.cpp.o: CMakeFiles/Stock.dir/flags.make
+CMakeFiles/Stock.dir/Stock.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/CSCI2100\ Project\ Stock\ Data\ Tracker/source\ code/Stock.cpp
+CMakeFiles/Stock.dir/Stock.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Stock.dir/Stock.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/Stock.cpp.o -MF CMakeFiles/Stock.dir/Stock.cpp.o.d -o CMakeFiles/Stock.dir/Stock.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Stock.cpp"
 
-CMakeFiles/Stock.dir/src/Stock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/src/Stock.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp" > CMakeFiles/Stock.dir/src/Stock.cpp.i
+CMakeFiles/Stock.dir/Stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/Stock.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Stock.cpp" > CMakeFiles/Stock.dir/Stock.cpp.i
 
-CMakeFiles/Stock.dir/src/Stock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/src/Stock.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp" -o CMakeFiles/Stock.dir/src/Stock.cpp.s
+CMakeFiles/Stock.dir/Stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/Stock.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Stock.cpp" -o CMakeFiles/Stock.dir/Stock.cpp.s
 
-CMakeFiles/Stock.dir/src/Market.cpp.o: CMakeFiles/Stock.dir/flags.make
-CMakeFiles/Stock.dir/src/Market.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/Project/src/Market.cpp
-CMakeFiles/Stock.dir/src/Market.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stock.dir/src/Market.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/src/Market.cpp.o -MF CMakeFiles/Stock.dir/src/Market.cpp.o.d -o CMakeFiles/Stock.dir/src/Market.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp"
+CMakeFiles/Stock.dir/Market.cpp.o: CMakeFiles/Stock.dir/flags.make
+CMakeFiles/Stock.dir/Market.cpp.o: /Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year\ 2/Sem\ 2/CSCI2100/CSCI2100\ Project\ Stock\ Data\ Tracker/source\ code/Market.cpp
+CMakeFiles/Stock.dir/Market.cpp.o: CMakeFiles/Stock.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Stock.dir/Market.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Stock.dir/Market.cpp.o -MF CMakeFiles/Stock.dir/Market.cpp.o.d -o CMakeFiles/Stock.dir/Market.cpp.o -c "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Market.cpp"
 
-CMakeFiles/Stock.dir/src/Market.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/src/Market.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp" > CMakeFiles/Stock.dir/src/Market.cpp.i
+CMakeFiles/Stock.dir/Market.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Stock.dir/Market.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Market.cpp" > CMakeFiles/Stock.dir/Market.cpp.i
 
-CMakeFiles/Stock.dir/src/Market.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/src/Market.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp" -o CMakeFiles/Stock.dir/src/Market.cpp.s
+CMakeFiles/Stock.dir/Market.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Stock.dir/Market.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code/Market.cpp" -o CMakeFiles/Stock.dir/Market.cpp.s
 
 # Object files for target Stock
 Stock_OBJECTS = \
-"CMakeFiles/Stock.dir/src/main.cpp.o" \
-"CMakeFiles/Stock.dir/src/Stock.cpp.o" \
-"CMakeFiles/Stock.dir/src/Market.cpp.o"
+"CMakeFiles/Stock.dir/main.cpp.o" \
+"CMakeFiles/Stock.dir/Stock.cpp.o" \
+"CMakeFiles/Stock.dir/Market.cpp.o"
 
 # External object files for target Stock
 Stock_EXTERNAL_OBJECTS =
 
-Stock: CMakeFiles/Stock.dir/src/main.cpp.o
-Stock: CMakeFiles/Stock.dir/src/Stock.cpp.o
-Stock: CMakeFiles/Stock.dir/src/Market.cpp.o
+Stock: CMakeFiles/Stock.dir/main.cpp.o
+Stock: CMakeFiles/Stock.dir/Stock.cpp.o
+Stock: CMakeFiles/Stock.dir/Market.cpp.o
 Stock: CMakeFiles/Stock.dir/build.make
 Stock: CMakeFiles/Stock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Stock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Stock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +140,6 @@ CMakeFiles/Stock.dir/clean:
 .PHONY : CMakeFiles/Stock.dir/clean
 
 CMakeFiles/Stock.dir/depend:
-	cd "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles/Stock.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles/Stock.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Stock.dir/depend
 

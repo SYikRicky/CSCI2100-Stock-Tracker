@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project"
+CMAKE_SOURCE_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/source code"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build"
+CMAKE_BINARY_DIR = "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/CSCI2100 Project Stock Data Tracker/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,77 +129,77 @@ Stock/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/build
 .PHONY : Stock/fast
 
-src/Market.o: src/Market.cpp.o
-.PHONY : src/Market.o
+Market.o: Market.cpp.o
+.PHONY : Market.o
 
 # target to build an object file
-src/Market.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Market.cpp.o
-.PHONY : src/Market.cpp.o
+Market.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Market.cpp.o
+.PHONY : Market.cpp.o
 
-src/Market.i: src/Market.cpp.i
-.PHONY : src/Market.i
+Market.i: Market.cpp.i
+.PHONY : Market.i
 
 # target to preprocess a source file
-src/Market.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Market.cpp.i
-.PHONY : src/Market.cpp.i
+Market.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Market.cpp.i
+.PHONY : Market.cpp.i
 
-src/Market.s: src/Market.cpp.s
-.PHONY : src/Market.s
+Market.s: Market.cpp.s
+.PHONY : Market.s
 
 # target to generate assembly for a file
-src/Market.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Market.cpp.s
-.PHONY : src/Market.cpp.s
+Market.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Market.cpp.s
+.PHONY : Market.cpp.s
 
-src/Stock.o: src/Stock.cpp.o
-.PHONY : src/Stock.o
+Stock.o: Stock.cpp.o
+.PHONY : Stock.o
 
 # target to build an object file
-src/Stock.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Stock.cpp.o
-.PHONY : src/Stock.cpp.o
+Stock.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock.cpp.o
+.PHONY : Stock.cpp.o
 
-src/Stock.i: src/Stock.cpp.i
-.PHONY : src/Stock.i
+Stock.i: Stock.cpp.i
+.PHONY : Stock.i
 
 # target to preprocess a source file
-src/Stock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Stock.cpp.i
-.PHONY : src/Stock.cpp.i
+Stock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock.cpp.i
+.PHONY : Stock.cpp.i
 
-src/Stock.s: src/Stock.cpp.s
-.PHONY : src/Stock.s
+Stock.s: Stock.cpp.s
+.PHONY : Stock.s
 
 # target to generate assembly for a file
-src/Stock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/Stock.cpp.s
-.PHONY : src/Stock.cpp.s
+Stock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/Stock.cpp.s
+.PHONY : Stock.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stock.dir/build.make CMakeFiles/Stock.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Stock"
-	@echo "... src/Market.o"
-	@echo "... src/Market.i"
-	@echo "... src/Market.s"
-	@echo "... src/Stock.o"
-	@echo "... src/Stock.i"
-	@echo "... src/Stock.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... Market.o"
+	@echo "... Market.i"
+	@echo "... Market.s"
+	@echo "... Stock.o"
+	@echo "... Stock.i"
+	@echo "... Stock.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

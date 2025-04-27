@@ -28,7 +28,7 @@ void Market::lookUpByID(int id)
     const auto& target = stockMap.find(id);
     if (target != stockMap.end())
     {
-        std::cout<< id <<"'s ";
+        std::cout<< "[lookUpByID] " << id <<"'s ";
         std::cout<< "Price: " << target->second->getPrice();
         std::cout<< " and Volume: " << target->second->getVol() << "\n";
     }
@@ -372,7 +372,7 @@ void Market::insertNewStock(int id, float price)
         stockMap[id] = stock;
         root_Price = insertPrice(root_Price, stock);
         root_Vol = insertVolume(root_Vol, stock);
-        std::cout << "New Stock: " << id << " with price " << price << " is added.\n";
+        std::cout << "[insertNewStock] " << id << " with price " << price << " is added.\n";
     }
 }
 
@@ -385,7 +385,7 @@ void Market::updatePrice(int id, float newPrice)
         root_Price = deletePrice(root_Price, oldPrice, id);
         stock->setPrice(newPrice);
         root_Price = insertPrice(root_Price, stock);
-        std::cout << "The price of " << id << " has changed from " << oldPrice << " to " << newPrice << "\n";
+        std::cout << "[updatePrice] The price of " << id << " has changed from " << oldPrice << " to " << newPrice << "\n";
     }
     else
     {
@@ -402,7 +402,7 @@ void Market::increaseVolume(int id, int v_inc)
         root_Vol = deleteVolume(root_Vol, oldVolume, id);
         stock->increaseVolume(v_inc);
         root_Vol = insertVolume(root_Vol, stock);
-        std::cout << "The volume of " << id << " has changed from " << oldVolume << " to " << oldVolume+v_inc << "\n";
+        std::cout << "[increaseVolume] The volume of " << id << " has changed from " << oldVolume << " to " << oldVolume+v_inc << "\n";
     }
     else
     {
@@ -418,14 +418,14 @@ void Market::priceRange(float lowerBound, float upperBound)
 
     if (priceRangeIDs.empty())
     {
-        std::cout << "No stocks is foound in range (priceRange) \n";
+        std::cout << "No stocks is found in range (priceRange) \n";
     }
     else
     {
-        std::cout << "Stocks in [" << lowerBound << ", " << upperBound << "]:\n";
+        std::cout << "[priceRange] Stocks in [" << lowerBound << ", " << upperBound << "]:\n";
         for (const auto& id : priceRangeIDs)
         {
-            std::cout << id << " ";
+            std::cout << id << ", ";
         }
         std::cout << "\n";
     }
@@ -438,7 +438,7 @@ void Market::maxVol()
     {
         maxVol = maxVol->right;
     }
-    std::cout << "Highest-volume stock's ID: " << maxVol->stock->getID() << "\n";
+    std::cout << "[maxVol] Highest-volume stock's ID: " << maxVol->stock->getID() << "\n";
 }
 
 
