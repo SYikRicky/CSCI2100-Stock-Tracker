@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build",
+  "command": "/usr/bin/c++  -I\"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/include\" -g -std=gnu++11 -arch arm64 -o CMakeFiles/Stock.dir/src/main.cpp.o -c \"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp\"",
+  "file": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/main.cpp",
+  "output": "CMakeFiles/Stock.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build",
+  "command": "/usr/bin/c++  -I\"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/include\" -g -std=gnu++11 -arch arm64 -o CMakeFiles/Stock.dir/src/Stock.cpp.o -c \"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp\"",
+  "file": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Stock.cpp",
+  "output": "CMakeFiles/Stock.dir/src/Stock.cpp.o"
+},
+{
+  "directory": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build",
+  "command": "/usr/bin/c++  -I\"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/include\" -g -std=gnu++11 -arch arm64 -o CMakeFiles/Stock.dir/src/Market.cpp.o -c \"/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp\"",
+  "file": "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/src/Market.cpp",
+  "output": "CMakeFiles/Stock.dir/src/Market.cpp.o"
+}
+]

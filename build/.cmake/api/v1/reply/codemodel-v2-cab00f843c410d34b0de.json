@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Stock",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Stock::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stock-Debug-5f0c1f8b850a59bbc738.json",
+					"name" : "Stock",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project/build",
+		"source" : "/Users/yik/Library/CloudStorage/OneDrive-TheChineseUniversityofHongKong/University/Year 2/Sem 2/CSCI2100/Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
